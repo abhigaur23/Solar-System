@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora" sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+.Sun{
+    width: 100px;
+    height: 100px;
+    background-image: url('sun.webp');
+    background-size: auto;
+    background-position: center;
+    position: absolute;
+    box-shadow: 0 0 50px orange;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 100%;
+}
+.mercury_wrapper{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.mercury{
+    width: 50px;
+    height: 50px;
+    background-image: url('mercury.webp');
+    background-size: auto;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+.mercury_path{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    border: solid 1px white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.mercury_planet_wrapper{
+    width: 100%;
+    height: 100%;
+    animation: rotatePlanet 6s linear infinite;
+}
+
+.venus_wrapper{
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.venus{
+    width: 50px;
+    height: 50px;
+    background-image: url('venus.webp');
+    background-size: auto;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+.venus_path{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    border: solid 1px white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.venus_planet_wrapper{
+    width: 100%;
+    height: 100%;
+    animation: rotatePlanet 8s linear infinite;
+}
+
+.earth_wrapper{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.earth{
+    width: 50px;
+    height: 50px;
+    background-image: url('earth.webp');
+    background-size: auto;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+.earth_path{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    border: solid 1px white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.earth_planet_wrapper{
+    width: 100%;
+    height: 100%;
+    animation: rotatePlanet 10s linear infinite;
+}
+
+.mars_wrapper{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.mars{
+    width: 50px;
+    height: 50px;
+    background-image: url('mars.webp');
+    background-size: auto;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+.mars_path{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    border: solid 1px white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.mars_planet_wrapper{
+    width: 100%;
+    height: 100%;
+    animation: rotatePlanet 14s linear infinite;
+}
+
+.jupiter_wrapper{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.jupiter{
+    width: 50px;
+    height: 50px;
+    background-image: url('jupiter.webp');
+    background-size: auto;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+.jupiter_path{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    border: solid 1px white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.jupiter_planet_wrapper{
+    width: 100%;
+    height: 100%;
+    animation: rotatePlanet 16s linear infinite;
+}
+
+.saturn_wrapper{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.saturn{
+    width: 50px;
+    height: 50px;
+    background-image: url('saturn.webp');
+    background-size: auto;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+.saturn_path{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    border: solid 1px white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.saturn_planet_wrapper{
+    width: 100%;
+    height: 100%;
+    animation: rotatePlanet 17s linear infinite;
+}
+
+.uranus_wrapper{
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.uranus{
+    width: 50px;
+    height: 50px;
+    background-image: url('uranus.webp');
+    background-size: auto;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+.uranus_path{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    border: solid 1px white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.uranus_planet_wrapper{
+    width: 100%;
+    height: 100%;
+    animation: rotatePlanet 20s linear infinite;
+}
+
+/* ************last******** */
+@keyframes rotatePlanet {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
